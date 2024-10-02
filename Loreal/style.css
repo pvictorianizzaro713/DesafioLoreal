@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #EFEEF3;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 800px) {
+  header {
+    flex-direction: column;
+  }
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  align-items: center;
+  width: 70vw;
+}
+@media (max-width: 800px) {
+  ul {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=style.css.map */
