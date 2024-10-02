@@ -30,4 +30,21 @@ ul {
   ul {
     flex-direction: column;
   }
+}
+
+main .banner {
+  width: 100vw;
+}
+@media (max-width: 800px) {
+  main .banner {
+    display: none;
+  }
+}
+main section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+main .caixa1 {
+  width: 30vw;
 }/*# sourceMappingURL=style.css.map */

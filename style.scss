@@ -29,3 +29,23 @@ ul{
       }
     }
 
+    main{
+        .banner {
+            width: 100vw;
+            @media (max-width: 800px) {
+              display: none;
+            }
+          }
+
+          section{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+          }
+
+          .caixa1{
+            width: 30vw;
+          }
+
+    }
+
